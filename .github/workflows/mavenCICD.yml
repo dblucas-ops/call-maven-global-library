@@ -10,7 +10,7 @@ jobs:
       - name: Check for properties file
         run: echo "Initialization Section"
   call-global-library:
-    uses: dblucas-ops/my-services-simpleone/.github/workflows/mavenCICD.yml@main
+    uses: dblucas-ops/corporate-maven-global-library/.github/workflows/mavenCICD.yml@main
     with:
       callerRepo: call-global-library
       branchName: main
