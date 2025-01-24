@@ -1,4 +1,4 @@
-name: Call Global Library
+name: Call Maven Global Library
 on:
   push:
     branches:
@@ -12,7 +12,7 @@ jobs:
   call-global-library:
     uses: dblucas-ops/corporate-maven-global-library/.github/workflows/mavenCICD.yml@main
     with:
-      callerRepo: call-global-library
+      callerRepo: call-maven-global-library
       branchName: main
       buildCmd: mvn
     secrets: inherit
