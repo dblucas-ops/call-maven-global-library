@@ -2,12 +2,12 @@ name: Second Workflow
 on: workflow_dispatch
 jobs:
   first-job:
-    runs-on: unbuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: First step
-        run: echo "fosr Step"
+        run: echo "First Step"
       - name: Second step
-        run: echo "Second step"
+        run: echo "Second Step"
       - name: Third Step
         run: |
           ls -l
