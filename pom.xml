@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+ices<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.dublinusa.devops</groupId>
-	<artifactId>devops-api</artifactId> 
+	<groupId>com.dublinusa.myservices</groupId>
+	<artifactId>myservices-api</artifactId> 
 
 	<version>0.0.10-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>DEVOPS API</name>
-	<description>REST API to support the DEVOPS domain.</description>
+	<description>REST API to support the domain.</description>
 	<properties>
 		<env.build.num>0.0</env.build.num>
 		<env.change.set.num>0.0</env.change.set.num>
@@ -192,7 +192,7 @@
 								<scheme>http</scheme>
 								<scheme>https</scheme>
 							</schemes>
-							<host>localhost:9005</host>
+							<host>localhost:15000</host>
 							<basePath>/</basePath>
 							<info>
 								<title>DEVOPS API</title>
@@ -218,11 +218,11 @@
 	  <repository>
 	   <id>github</id>
 	   <name>Github</name>
-	   <url>https://maven.pkg.github.com/dblucas-ops/enterprise-services-devops-stub</url>
+	   <url>https://maven.pkg.github.com/dblucas-ops/myservices-stub</url>
 	  </repository>
 	  <snapshotRepository>
 	   <id>github</id>
-	   <url>https://maven.pkg.github.com/dblucas-ops/enterprise-services-devops-stub</url>
+	   <url>https://maven.pkg.github.com/dblucas-ops/myservices-stub</url>
 	  </snapshotRepository>
 	 </distributionManagement>
 </project>
