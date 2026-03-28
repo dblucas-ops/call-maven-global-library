@@ -1,4 +1,4 @@
-package com.mapfreusa.devops;
+package com.dblusa.devops;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

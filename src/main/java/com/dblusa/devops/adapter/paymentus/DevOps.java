@@ -1,4 +1,4 @@
-package com.mapfreusa.devops.adapter.paymentus;
+package com.dblusa.devops.adapter.paymentus;
 
 import java.io.Serializable;
 
